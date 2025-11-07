@@ -1,0 +1,18 @@
+{
+    "name": "user/web-vk",
+    "autoload": {
+        "psr-4": {
+            "User\\WebVk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Сергей Падерин",
+            "email": "padierins@mail.ru"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.16.10",
+        "twig/twig": "^3.0"
+    }
+}
